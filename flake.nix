@@ -31,8 +31,7 @@
       # Packages to be exposed under packages.<system>. Those can accessed
       # directly from package outputs in other flakes if this flake is added
       # as an input. You may run those packages with 'nix run .#<package>'
-      default = self.packages.${system}.neovim;
-      neovimConfigured = neovimConfigured.neovim;
+      default = neovimConfigured.neovim;
     });
   };
 }
