@@ -46,6 +46,8 @@
       tabstop = 2;
       shiftwidth = 2;
       wrap = false;
+      scrolloff = 10;
+      sidescrolloff = 5;
     };
 
     visuals = {
