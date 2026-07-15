@@ -3,6 +3,6 @@
 - [x] try NVF instead
 - [x] auto format on save
 - [ ] auto complete sources
-  - [ ] nixos options
+  - [x] nixos options
   - [x] `nixpkgs`
   - [ ] `nvf`

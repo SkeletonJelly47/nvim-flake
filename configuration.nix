@@ -26,6 +26,13 @@
               formatting.command = ["alejandra"];
               nixpkgs = {
                 expr = "import <nixpkgs> { }";
+
+                options = let
+                  # wait how the fuck do i get the flake now
+                  flake = ''(builtins.getFlake "/home/mikko5/nixos-config")'';
+                in {
+                  nixos.expr = "${flake}.nixosConfigurations.mikko5.options";
+                };
               };
             };
           };
