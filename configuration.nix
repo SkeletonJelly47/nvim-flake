@@ -19,6 +19,7 @@
           enable = true;
           cmd = ["nixd"];
           root_markers = ["flake.nix" ".git"];
+          filetypes = ["nix"];
 
           settings = {
             nixd = {
