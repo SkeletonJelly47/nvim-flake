@@ -68,6 +68,8 @@
         enable = true;
         extensions.crates-nvim.enable = true;
       };
+
+      docker.enable = true;
     };
 
     opts = {
